@@ -17,6 +17,7 @@ public class StopwatchActivity extends Activity {
 
     private int vueltas = 0;
     private int seconds = 0;
+	private int pivot = 0;
     private boolean running;
     private ListView list;
     private ArrayList<String> tiempos = new ArrayList<>();
